@@ -1512,7 +1512,7 @@ eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPAC
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./store */ \"./store/index.js\");\n\nwindow.browser = __webpack_require__(/*! webextension-polyfill */ \"../node_modules/webextension-polyfill/dist/browser-polyfill.js\");\nalert(`Hello ${_store__WEBPACK_IMPORTED_MODULE_0__[\"default\"].getters.foo}!`);\n\n//# sourceURL=webpack:///./background.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./store */ \"./store/index.js\");\n\nwindow.browser = __webpack_require__(/*! webextension-polyfill */ \"../node_modules/webextension-polyfill/dist/browser-polyfill.js\");\nalert(`Hello ${_store__WEBPACK_IMPORTED_MODULE_0__[\"default\"].getters.foo}!`);\nwhale.sidebarAction.getPage(function (e) {\n  alert(e);\n}); // whale.sidebarAction.show();\n\n//# sourceURL=webpack:///./background.js?");
 
 /***/ }),
 
