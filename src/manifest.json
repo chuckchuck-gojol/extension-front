@@ -17,7 +17,9 @@
     "mobile_user_agent": false
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "webRequest",
+    "*://*.google.com/"
   ],
   "background": {
     "scripts": [
