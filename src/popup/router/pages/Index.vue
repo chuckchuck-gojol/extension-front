@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <p>Hello world! {{ title }}</p>
-    <p>Page {{ page }}</p>
-
     <div v-for="(item, index) in json">
       <Comment v-bind="item"/>
     </div>
@@ -25,9 +22,6 @@ export default {
   },
   data() {
     return {
-      title: 'minjeong',
-      items: [1,2,3],
-      page: 'hello',
       json: [{user_channel: '/channel/UCqPEgHpMCNIMOKdwfFXRSbw', user_text: 'S_H', user_image: 'https://yt3.ggpht.com/a/AATXAJwEqu-XdQqv2qXQxtDd7F8LZIdZlR2abnCa6A=s48-c-k-c0xffffffff-no-rj-mo', user_time: '1개월전', user_comment_good_count: '2', user_comment: '<div class="style-scope ytd-expander" id="content"><yt-formatted-string class="style-scope ytd-comment-renderer" disable-upgrade="" hidden="" id="voted-option" slot="content"></yt-formatted-string><yt-formatted-string class="style-scope ytd-comment-renderer" id="content-text" slot="content" split-lines="">다행이야 아노유노 기타 소리가 너무 좋아서 정말 좋아합니다 이런 잔잔하고 이쁜 곡들을 모아주셨군요! 복받으십셔ㅠㅠ 잘때 틀어놓고 자면 되겠군요ㅠㅠ 우로파들 목소리 너무 좋아ㅜㅜ</yt-formatted-string></div>'},
         {user_channel: '/channel/UCPZaejhrCz6PkH3663wrlBQ', user_text: '최성유', user_image: 'https://yt3.ggpht.com/a/AATXAJw3aT6Zvm7MFUarM7REn6Jb5Gtm0ZsqXtG-mQ=s48-c-k-c0xffffffff-no-rj-mo', user_time: '6일전', user_comment_good_count: '1', user_comment: '<div class="style-scope ytd-expander" id="content"><yt-formatted-string class="style-scope ytd-comment-renderer" disable-upgrade="" hidden="" id="voted-option" slot="content"></yt-formatted-string><yt-formatted-string class="style-scope ytd-comment-renderer" id="content-text" slot="content" split-lines=""><span class="style-scope yt-formatted-string" dir="auto">노래넘 좋아요!</span><span class="style-scope yt-formatted-string" dir="auto"></span><span class="style-scope yt-formatted-string" dir="auto">다음에도 좋은 노래해주세요</span><span class="style-scope yt-formatted-string" dir="auto"></span><span class="style-scope yt-formatted-string" dir="auto">그럼 끄적!</span></yt-formatted-string></div>'},
         {user_channel: '/channel/UC9iwwCfDUuwHymkbQ3PU_Sw', user_text: '무갓.', user_image: 'https://yt3.ggpht.com/a/AATXAJzrXolB1M2rb9HEMmc2ulFu8MJcYU4dus3l=s48-c-k-c0xffffffff-no-rj-mo', user_time: '1개월전(수정됨)', user_comment_good_count: '1', user_comment: '<div class="style-scope ytd-expander" id="content"><yt-formatted-string class="style-scope ytd-comment-renderer" disable-upgrade="" hidden="" id="voted-option" slot="content"></yt-formatted-string><yt-formatted-string class="style-scope ytd-comment-renderer" id="content-text" slot="content" split-lines="">공부할때 들었습니다&gt;&lt; 공부할때 쭉 이노래 들을거 같네요! 감사합니다// ⭐</yt-formatted-string></div>'},

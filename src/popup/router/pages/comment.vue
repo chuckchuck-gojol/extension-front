@@ -1,11 +1,18 @@
 <template>
     <div id="app">:
-        <p>{{user_channel}}</p>
-        <p>{{user_text}}</p>
-        <p>{{user_image}}</p>
-        <p>{{user_time}}</p>
-        <p>{{user_comment_good_count}}</p>
-        <div v-html="user_comment"></div>
+        <div class="container">
+            <div class="row">
+                <p>{{user_channel}}</p>
+                <p>{{user_text}}</p>
+                <p>{{user_image}}</p>
+                <p>{{user_time}}</p>
+                <p>{{user_comment_good_count}}</p>
+                <div v-html="user_comment"></div>
+            </div>
+        </div>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+        </div>
     </div>
 </template>
 
