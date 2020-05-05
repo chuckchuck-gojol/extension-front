@@ -1,8 +1,11 @@
 p[data-v-5e7d9fdf] {
   font-size: 20px;
 }
+div.row[data-v-5e7d9fdf] .emoji {
+  width: 1.3em;
+}
 
-p[data-v-005b02b2] {
-  font-size: 20px;
+.container[data-v-005b02b2] {
+  margin: 1em;
 }
 
